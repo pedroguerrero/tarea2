@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Tarea 1 del modulo 2 del curso, es un sitio web para un hospital que posee las siguientes páginas:
+Tarea 2 del modulo 2 del curso, es un sitio web para un hospital que posee las siguientes páginas, se adiciona CSS para aplicar estilos al sitio:
 
 1. index.html - página principal del sitio en donde se encuentra la bienvenida, servicios y testimonios de pacientes
 2. equipo-medico.html - página del equipo medico, posee la informacion de los médicos del hospital
@@ -22,13 +22,13 @@ Luego ir a la siguiente url [http://localhost:8080](http://localhost:8080) para 
 
 ```
 .
-├── Dockerfile # docker file para crear la imagen
+├── Dockerfile
 ├── README.md
 ├── app
-│   ├── contacto.html # página de contacto
+│   ├── contacto.html
 │   ├── css
-│   │   └── style.css # estilo personalizado
-│   ├── equipo-medico.html # página de equipo medico
+│   │   └── main.css
+│   ├── equipo-medico.html
 │   ├── img
 │   │   ├── bg-2.jpg
 │   │   ├── bg-3.jpg
@@ -41,6 +41,14 @@ Luego ir a la siguiente url [http://localhost:8080](http://localhost:8080) para 
 │   │   ├── service-1.png
 │   │   ├── service-2.png
 │   │   └── service-3.png
-│   └── index.html # página principal
-└── docker-compose.yml # docker-compose para levantar localmente el sitio
+│   ├── index.html
+│   └── scss
+│       ├── _footer.scss
+│       ├── _header.scss
+│       ├── _home.scss
+│       └── main.scss
+├── docker-compose.yml
+├── gulpfile.js
+├── package-lock.json
+└── package.json
 ```
