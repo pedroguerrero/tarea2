@@ -1,0 +1,25 @@
+@use './footer';
+@use './home';
+@use './header';
+
+.welcome-section {
+  padding: 200px 0;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.contact-section {
+  padding: 200px 0;
+  background: url(../img/bg-2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.medical-team-section {
+  padding: 200px 0;
+  background: url(../img/bg-3.jpg) no-repeat;
+  background-size: cover;
+}
+
+footer {
+  margin-top: 100px;
+}
