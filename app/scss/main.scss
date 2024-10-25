@@ -2,24 +2,104 @@
 @use './home';
 @use './header';
 
-.welcome-section {
-  padding: 200px 0;
-  background: url(../img/bg.jpg) no-repeat;
-  background-size: cover;
+$fontBold: bold;
+$lineHeight: 150%;
+$bluecolor: #293C8F;
+$textColor: #333;
+$navBackgroundColor: ##F8F8F8;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.contact-section {
-  padding: 200px 0;
-  background: url(../img/bg-2.jpg) no-repeat;
-  background-size: cover;
-}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: $textColor;
+  margin: 0;
+  padding: 0;
 
-.medical-team-section {
-  padding: 200px 0;
-  background: url(../img/bg-3.jpg) no-repeat;
-  background-size: cover;
-}
+  a {
+    text-decoration: none;
+    color: $bluecolor;
+  }
 
-footer {
-  margin-top: 100px;
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 45px;
+    font-weight: $fontBold;
+    line-height: $lineHeight;
+  }
+
+  h2 {
+    font-size: 35px;
+    font-weight: $fontBold;
+    line-height: $lineHeight;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: $lineHeight;
+  }
+
+  header {
+    width: 100%;
+    background-color: $navBackgroundColor;
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        &.navbar-brand {
+          display: flex;
+          justify-items: center;
+          align-items: center;
+          margin: 20px;
+        }
+
+        img {
+          margin-right: 10px;
+        }
+      }
+
+      ul {
+        li {
+          float: left;
+          margin-right: 10px;
+        }
+      }
+    }
+
+  }
+
+  .welcome-section {
+    padding: 200px 0;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .contact-section {
+    padding: 200px 0;
+    background: url(../img/bg-2.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .medical-team-section {
+    padding: 200px 0;
+    background: url(../img/bg-3.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  footer {
+    margin-top: 100px;
+  }
 }
