@@ -1,7 +1,7 @@
-@use './variables.scss';
-@use './footer.scss';
-@use './home.scss';
-@use './header.scss';
+@use 'variables' as *;
+@use 'footer' as *;
+@use 'home' as *;
+@use 'header' as *;
 
 html,
 body {
@@ -17,7 +17,7 @@ body {
 
   a {
     text-decoration: none;
-    color: $bluecolor;
+    // color: $bluecolor;
   }
 
   ul,
@@ -29,25 +29,25 @@ body {
 
   h1 {
     font-size: 45px;
-    font-weight: $fontBold;
-    line-height: $lineHeight;
+    // font-weight: $fontBold;
+    // line-height: $lineHeight;
   }
 
   h2 {
     font-size: 35px;
-    font-weight: $fontBold;
-    line-height: $lineHeight;
+    // font-weight: $fontBold;
+    // line-height: $lineHeight;
   }
 
   h3 {
     font-size: 25px;
-    font-weight: $fontBold;
-    line-height: $lineHeight;
+    // font-weight: $fontBold;
+    // line-height: $lineHeight;
   }
 
   p {
     font-size: 20px;
-    line-height: $lineHeight;
+    // line-height: $lineHeight;
   }
 
   .text-center {
