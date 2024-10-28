@@ -1,0 +1,37 @@
+@use './variables.scss';
+
+header {
+  width: 100%;
+  background-color: $navBackgroundColor;
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      &.navbar-brand {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 20px;
+        color: #212529;
+      }
+
+      img {
+        margin-right: 10px;
+      }
+    }
+
+    ul {
+      li {
+        float: left;
+        margin-right: 30px;
+
+        a {
+          color: #212529;
+        }
+      }
+    }
+  }
+}

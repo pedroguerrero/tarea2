@@ -10,29 +10,22 @@
   <body>
     <header>
       <nav>
-        <div>
-          <div id="nav">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-              <img
-                src="img/hospital-icon.svg"
-                alt=""
-                height="40"
-                class="me-2"
-              />
-              VidaPlena</a
-            >
-            <ul>
-              <li>
-                <a aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li>
-                <a href="equipo-medico.html">Equipo médico</a>
-              </li>
-              <li>
-                <a href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+        <div class="nav">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/hospital-icon.svg" alt="" height="40" />
+            VidaPlena</a
+          >
+          <ul class="nav-item">
+            <li class="nav-item">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="equipo-medico.html">Equipo médico</a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -53,30 +46,34 @@
 
       <!-- sección formulario -->
       <section>
-        <div>
-          <form>
-            <div>
-              <label for="nombre">Nombre</label>
-              <input type="text" id="nombre" />
-            </div>
+        <div class="container">
+          <div class="row">
+            <form>
+              <div class="form-item">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" />
+              </div>
 
-            <div>
-              <label for="email">Correo electrónico</label>
-              <input type="email" id="email" aria-describedby="emailHelp" />
-            </div>
-            <div>
-              <label for="asunto">Asunto</label>
-              <input type="text" id="asunto" />
-            </div>
-            <div>
-              <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" rows="3"></textarea>
-            </div>
+              <div class="form-item">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" id="email" class="form-control" />
+              </div>
 
-            <button type="submit">Enviar mensaje</button>
-          </form>
+              <div class="form-item">
+                <label for="asunto" class="form-label">Asunto</label>
+                <input type="text" id="asunto" class="form-control" />
+              </div>
 
-          <div>
+              <div class="form-item">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea id="mensaje" rows="3" class="form-control"></textarea>
+              </div>
+
+              <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+          </div>
+
+          <div class="row">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16781.35830596649!2d-71.24099795052393!3d-34.98516712157657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966457c6e067c9e1%3A0x61321273f71c71eb!2sHospital%20Nuevo%20de%20Curic%C3%B3!5e0!3m2!1ses-419!2scl!4v1729206282980!5m2!1ses-419!2scl"
               width="100%"
@@ -93,7 +90,7 @@
     </main>
 
     <footer>
-      <ul>
+      <ul class="nav-footer">
         <li>
           <a href="index.html">Inicio</a>
         </li>
@@ -105,24 +102,24 @@
         </li>
       </ul>
 
-      <ul>
+      <ul class="nav-footer-social">
         <li>
-          <a target="_blank" href="#" aria-label="Twitter"
-            >Twitter<i class="bi bi-twitter"></i
-          ></a>
+          <a target="_blank" href="#" aria-label="Twitter">
+            <img src="img/twitter.svg" alt="Twitter" />
+          </a>
         </li>
         <li class="ms-3 fs-4">
           <a target="_blank" href="#" aria-label="Instagram"
-            >Instagram<i class="bi bi-instagram"></i
-          ></a>
+            ><img src="img/instagram.svg" alt="Instagram"
+          /></a>
         </li>
         <li class="ms-3 fs-4">
           <a target="_blank" href="#" aria-label="Facebook"
-            >Facebook<i class="bi bi-facebook"></i
-          ></a>
+            ><img src="img/facebook.svg" alt="Facebook"
+          /></a>
         </li>
       </ul>
-      <p>© 2024 VidaPlena</p>
+      <p class="credits">© 2024 VidaPlena</p>
     </footer>
   </body>
 </html>

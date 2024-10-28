@@ -10,29 +10,22 @@
   <body>
     <header>
       <nav>
-        <div>
-          <div id="nav">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-              <img
-                src="img/hospital-icon.svg"
-                alt=""
-                height="40"
-                class="me-2"
-              />
-              VidaPlena</a
-            >
-            <ul>
-              <li>
-                <a aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li>
-                <a href="equipo-medico.html">Equipo médico</a>
-              </li>
-              <li>
-                <a href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
+        <div class="nav">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/hospital-icon.svg" alt="" height="40" />
+            VidaPlena</a
+          >
+          <ul class="nav-item">
+            <li class="nav-item">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a aria-current="page" href="equipo-medico.html">Equipo médico</a>
+            </li>
+            <li class="nav-item">
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -54,53 +47,63 @@
 
       <!-- equipo -->
       <section>
-        <div>
-          <div>
-            <h2>Equipo médico</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center">Equipo médico</h2>
+            </div>
           </div>
 
-          <div>
-            <div>
-              <img src="img/doc-1.png" alt="..." />
-              <div>
-                <h3>Dra. Andrea</h3>
-                <p>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <img src="img/doc-1.png" alt="" class="img-responsive" />
+                <div class="card-body">
+                  <h3>Card title</h3>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div>
-              <img src="img/doc-1.png" alt="..." />
-              <div>
-                <h3>Dra. Andrea</h3>
-                <p>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+            <div class="col">
+              <div class="card">
+                <img src="img/doc-1.png" alt="" class="img-responsive" />
+                <div class="card-body">
+                  <h3>Pedro Guerrero</h3>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div>
-              <img src="img/doc-1.png" alt="..." />
-              <div>
-                <h3>Dra. Andrea</h3>
-                <p>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+            <div class="col">
+              <div class="card">
+                <img src="img/doc-1.png" alt="" class="img-responsive" />
+                <div class="card-body">
+                  <h3>Card title</h3>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div>
-              <img src="img/doc-1.png" alt="..." />
-              <div>
-                <h3>Dra. Andrea</h3>
-                <p>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
+            <div class="col">
+              <div class="card">
+                <img src="img/doc-1.png" alt="" class="img-responsive" />
+                <div class="card-body">
+                  <h3>Card title</h3>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -109,7 +112,7 @@
     </main>
 
     <footer>
-      <ul>
+      <ul class="nav-footer">
         <li>
           <a href="index.html">Inicio</a>
         </li>
@@ -121,24 +124,24 @@
         </li>
       </ul>
 
-      <ul>
+      <ul class="nav-footer-social">
         <li>
-          <a target="_blank" href="#" aria-label="Twitter"
-            >Twitter<i class="bi bi-twitter"></i
-          ></a>
+          <a target="_blank" href="#" aria-label="Twitter">
+            <img src="img/twitter.svg" alt="Twitter" />
+          </a>
         </li>
         <li class="ms-3 fs-4">
           <a target="_blank" href="#" aria-label="Instagram"
-            >Instagram<i class="bi bi-instagram"></i
-          ></a>
+            ><img src="img/instagram.svg" alt="Instagram"
+          /></a>
         </li>
         <li class="ms-3 fs-4">
           <a target="_blank" href="#" aria-label="Facebook"
-            >Facebook<i class="bi bi-facebook"></i
-          ></a>
+            ><img src="img/facebook.svg" alt="Facebook"
+          /></a>
         </li>
       </ul>
-      <p>© 2024 VidaPlena</p>
+      <p class="credits">© 2024 VidaPlena</p>
     </footer>
   </body>
 </html>
