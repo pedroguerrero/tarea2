@@ -1,7 +1,7 @@
-@use 'variables' as *;
-@use 'footer' as *;
-@use 'home' as *;
-@use 'header' as *;
+@use 'components/variables' as *;
+@use 'components/footer' as *;
+@use 'components/home' as *;
+@use 'components/header' as *;
 
 html,
 body {
