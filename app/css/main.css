@@ -1,0 +1,242 @@
+footer {
+  margin-top: 100px;
+}
+footer .credits {
+  font-size: 16px;
+  text-align: center;
+}
+footer ul.nav-footer {
+  border-bottom: 1px solid #d2d2d2;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer ul.nav-footer li {
+  margin: 20px 10px;
+}
+footer ul.nav-footer li a {
+  color: #212529;
+}
+footer ul.nav-footer-social {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer ul.nav-footer-social li {
+  margin: 20px 10px;
+}
+footer ul.nav-footer-social li a {
+  color: #212529;
+}
+
+.welcome-section {
+  padding: 200px 30px;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact-section {
+  padding: 200px 30px;
+  background: url(../img/bg-2.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.medical-team-section {
+  padding: 200px 30px;
+  background: url(../img/bg-3.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .nav a.navbar-brand {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin: 20px;
+  color: #212529;
+}
+header .nav a img {
+  margin-right: 10px;
+}
+header .nav ul li {
+  float: left;
+  margin-right: 30px;
+}
+header .nav ul li a {
+  color: #212529;
+}
+header .nav ul li .appointment {
+  color: #007bff;
+  font-weight: bold;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+body a {
+  text-decoration: none;
+}
+body ul,
+body li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body h1 {
+  font-size: 45px;
+}
+body h2 {
+  font-size: 35px;
+}
+body h3 {
+  font-size: 25px;
+}
+body p {
+  font-size: 20px;
+}
+body .text-center {
+  text-align: center;
+}
+body .container {
+  max-width: 1320px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+body .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+body .col {
+  padding-top: 20px;
+  flex: 1 0 0%;
+}
+body .img-responsive {
+  width: 100%;
+}
+body .card {
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+}
+body .card-body {
+  padding: 0 20px;
+  min-height: 200px;
+}
+body form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .form-label {
+  margin-bottom: 0.5rem;
+}
+body label {
+  display: inline-block;
+}
+body .form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+body .form-item {
+  margin-bottom: 30px;
+  width: 100%;
+}
+body .btn {
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border-radius: 5px;
+  background-color: #4043ff;
+  border: none;
+}
+@media only screen and (max-width: 767px) {
+  body .col {
+    width: 100%;
+    flex: 0;
+  }
+  body .row {
+    display: block;
+  }
+  body .welcome-section {
+    padding: 30px;
+  }
+  body .contact-section {
+    padding: 30px;
+  }
+  body .medical-team-section {
+    padding: 30px;
+  }
+  body header {
+    display: block;
+  }
+  body header .nav {
+    text-align: center;
+    display: grid;
+    padding: 20px;
+    justify-content: center;
+  }
+  body header .nav a.navbar-brand {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+  body header .nav a.navbar-brand img {
+    display: block;
+    margin: 10px 0;
+  }
+  body header .nav .nav-item li {
+    margin: 0 10px;
+  }
+  body form {
+    width: auto;
+  }
+}
